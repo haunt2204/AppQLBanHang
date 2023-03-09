@@ -1,0 +1,14 @@
+/*
+ * Empty Stylesheet file.
+ */
+*{
+    -fx-font-family:Arial;
+}
+VBox{
+    -fx-background-color:aquamarine;
+    -fx-padding:10;
+    -fx-spacing:10;
+}
+.mainFxmlClass {
+
+}
