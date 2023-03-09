@@ -12,14 +12,13 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../../../styles/style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../../../styles/style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nth.appqlbh.FXQLBanHangController">
    <children>
-      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="QUẢN LÝ SẢN PHẨM" />
-      <GridPane>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="Subject" text="QUẢN LÝ SẢN PHẨM" />
+      <GridPane prefHeight="199.0" prefWidth="580.0">
         <columnConstraints>
-          <ColumnConstraints hgrow="SOMETIMES" maxWidth="293.0" minWidth="10.0" prefWidth="90.0" />
-          <ColumnConstraints hgrow="SOMETIMES" maxWidth="510.0" minWidth="10.0" prefWidth="510.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="293.0" minWidth="10.0" prefWidth="99.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="510.0" minWidth="10.0" prefWidth="481.0" />
         </columnConstraints>
         <rowConstraints>
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
@@ -35,12 +34,12 @@
             <TextField styleClass="txtInFo" GridPane.columnIndex="1" />
             <TextField styleClass="txtInFo" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <TextField styleClass="txtInFo" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-            <ComboBox prefWidth="150.0" styleClass="txtInFo" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <ComboBox fx:id="cbLoaiSP" prefWidth="150.0" promptText="Chọn loại sản phẩm" styleClass="txtInFo" GridPane.columnIndex="1" GridPane.rowIndex="2" />
          </children>
       </GridPane>
       <HBox prefHeight="34.0" prefWidth="600.0">
          <children>
-            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Thêm" />
          </children>
       </HBox>
       <TableView prefHeight="229.0" prefWidth="600.0">
