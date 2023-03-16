@@ -1,0 +1,4 @@
+--patch-module
+com.nth.appqlbh=_
+--add-reads
+com.nth.appqlbh=ALL-UNNAMED
