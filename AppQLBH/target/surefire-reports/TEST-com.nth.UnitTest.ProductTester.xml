@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.nth.UnitTest.CategoryTester" time="0.314" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.nth.UnitTest.ProductTester" time="0.318" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,9 +15,9 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\admin\AppData\Local\Temp\surefire5244951775578445394 2023-03-23T13-30-55_770-jvmRun1 surefire-20230323133122140_1tmp surefire_0-20230323133122140_2tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\admin\AppData\Local\Temp\surefire12030288260600498965 2023-03-23T13-58-14_813-jvmRun1 surefire-20230323135815198_1tmp surefire_0-20230323135815198_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="com.nth.UnitTest.CategoryTester"/>
+    <property name="test" value="com.nth.UnitTest.ProductTester"/>
     <property name="surefire.test.class.path" value="C:\Users\admin\Desktop\AppQLBanHang---Ca1\AppQLBH\target\test-classes;C:\Users\admin\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13.jar;C:\Users\admin\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13.jar;C:\Users\admin\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13.jar;C:\Users\admin\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13.jar;C:\Users\admin\.m2\repository\com\mysql\mysql-connector-j\8.0.32\mysql-connector-j-8.0.32.jar;C:\Users\admin\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\admin\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\admin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\admin\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\admin"/>
@@ -58,11 +58,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="testUnique" classname="com.nth.UnitTest.CategoryTester" time="0.024">
-    <system-out><![CDATA[Nước giải khát
-Cafe
-Rượu
-Bánh ngọt
-]]></system-out>
-  </testcase>
+  <testcase name="testSPNotNull" classname="com.nth.UnitTest.ProductTester" time="0.304"/>
+  <testcase name="testSPNull" classname="com.nth.UnitTest.ProductTester" time="0.001"/>
 </testsuite>

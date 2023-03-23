@@ -19,6 +19,7 @@ import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
+import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
@@ -37,6 +38,7 @@ public class FXQLBanHangController implements Initializable {
     @FXML private TextField txtGiaBanSP;
     @FXML private TableView<SanPham> tbView;
     @FXML private TextField txtSearch;
+    @FXML private Button btThem;
     
     /**
      * Initializes the controller class.
@@ -62,6 +64,10 @@ public class FXQLBanHangController implements Initializable {
             } catch (SQLException ex) {
                 Logger.getLogger(FXQLBanHangController.class.getName()).log(Level.SEVERE, null, ex);
             }
+        });
+        
+        btThem.setOnAction((evt)->{
+            txtMaSP.setText(UUID.randomUUID().toString());
         });
     }    
     

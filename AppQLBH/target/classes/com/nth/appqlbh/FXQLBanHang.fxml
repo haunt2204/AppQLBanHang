@@ -38,7 +38,7 @@
       </GridPane>
       <HBox prefHeight="34.0" prefWidth="600.0">
          <children>
-            <Button mnemonicParsing="false" onAction="#themSanPham" text="Thêm" />
+            <Button fx:id="btThem" mnemonicParsing="false" onAction="#themSanPham" text="Thêm" />
          </children>
       </HBox>
       <TextField fx:id="txtSearch" promptText="Nhập từ khóa cần tìm" />
